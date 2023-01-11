@@ -1,0 +1,25 @@
+{
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Arknights Sora",
+      "Type": "model",
+      "Org": "ibrs",
+      "Ident": "ark_sora",
+      "Tags": "arknights anime",
+      "Schema": 0,
+      "HasAssets": false,
+      "AssetsPath": null,
+      "ResourcePaths": null,
+      "HasCode": false,
+      "CodePath": null,
+      "Metadata": {
+        "SingleAssetSource": "models/sora.vmdl",
+        "Summary": "Sora from Arknights.",
+        "Description": "Sora from Arknights.\nCreators: 8sianDude",
+        "Public": true,
+        "ReplaceTags": "arknights anime"
+      }
+    }
+  }
+}

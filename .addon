@@ -1,0 +1,19 @@
+{
+  "Title": "Arknights Sora",
+  "Type": "content",
+  "Org": "ibrs",
+  "Ident": "ark_sora",
+  "Tags": "arknights anime",
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": false,
+  "CodePath": null,
+  "Metadata": {
+    "Summary": "Sora from Arknights.",
+    "Description": "Sora from Arknights.",
+    "Public": true,
+    "ReplaceTags": "arknights anime"
+  }
+}

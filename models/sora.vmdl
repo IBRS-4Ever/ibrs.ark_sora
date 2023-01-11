@@ -1,0 +1,995 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Body"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Body",
+									"Hair",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Jacket"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Jacket",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Sandals"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Sandals",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Ankle_Bands"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Ankle_Bands",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Tail"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Tail",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Ears"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Ears",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "bracelet_left"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"bracelet_left",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "bracelet_right"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"bracelet_right",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Ponytail_Acce"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Ponytail_Acce",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Skirt_Belt"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Skirt_Belt",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Thigh_band_tag"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Thigh_band_tag",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Ribbon"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"Ribbon",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "skin.vmat"
+								to = "materials/models/arknights_sora_bikini/skin.vmat"
+							},
+							{
+								from = "eyes.vmat"
+								to = "materials/models/arknights_sora_bikini/eye.vmat"
+							},
+							{
+								from = "hair.vmat"
+								to = "materials/models/arknights_sora_bikini/hair.vmat"
+							},
+							{
+								from = "jacket.vmat"
+								to = "materials/models/arknights_sora_bikini/jacket.vmat"
+							},
+							{
+								from = "hair2.vmat"
+								to = "materials/models/arknights_sora_bikini/hair.vmat"
+							},
+							{
+								from = "eyes_light.vmat"
+								to = "materials/models/arknights_sora_bikini/eye.vmat"
+							},
+							{
+								from = "eyes_misc.vmat"
+								to = "materials/models/arknights_sora_bikini/eye.vmat"
+							},
+							{
+								from = "eyes_white.vmat"
+								to = "materials/models/arknights_sora_bikini/eye.vmat"
+							},
+							{
+								from = "face.vmat"
+								to = "materials/models/arknights_sora_bikini/face.vmat"
+							},
+							{
+								from = "face_mouth.vmat"
+								to = "materials/models/arknights_sora_bikini/face.vmat"
+							},
+							{
+								from = "hairshadow.vmat"
+								to = "materials/models/arknights_sora_bikini/hair.vmat"
+							},
+							{
+								from = "outfit_a1.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_a.vmat"
+							},
+							{
+								from = "outfit_a2.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_a.vmat"
+							},
+							{
+								from = "outfit_a3.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_a.vmat"
+							},
+							{
+								from = "outfit_a4.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_a.vmat"
+							},
+							{
+								from = "outfit_a_panty.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_a.vmat"
+							},
+							{
+								from = "outfit_b_acce.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_b_acce.vmat"
+							},
+							{
+								from = "outfit_b1.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_b_acce.vmat"
+							},
+							{
+								from = "outfit_b2.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_b_acce.vmat"
+							},
+							{
+								from = "outfit_b3.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_b_acce.vmat"
+							},
+							{
+								from = "outfit_b_wallet.vmat"
+								to = "materials/models/arknights_sora_bikini/outfit_b_acce.vmat"
+							},
+							{
+								from = "yellow_acce.vmat"
+								to = "materials/models/arknights_sora_bikini/hair.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_pelvis"
+						child_body = "bip01_spine"
+						anchor_origin = [ 0.0, -2.0, -1.0 ]
+						anchor_angles = [ 90.0, 0.0, -90.0 ]
+						collision_enabled = false
+						friction = 0.5
+						enable_swing_limit = true
+						swing_limit = 10.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -5.0
+						max_twist_angle = 5.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_spine"
+						child_body = "bip01_spine2"
+						anchor_origin = [ 1.5, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, -90.0, -90.0 ]
+						collision_enabled = false
+						friction = 0.5
+						enable_swing_limit = true
+						swing_limit = 10.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -10.0
+						max_twist_angle = 10.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_spine2"
+						child_body = "bip01_spine4"
+						anchor_origin = [ 4.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, -90.0, -90.0 ]
+						collision_enabled = false
+						friction = 0.5
+						enable_swing_limit = true
+						swing_limit = 20.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -15.0
+						max_twist_angle = 15.0
+					},
+					{
+						_class = "PhysicsJointConical"
+						parent_body = "bip01_spine4"
+						child_body = "bip01_head1"
+						anchor_origin = [ 8.0, 0.0, 0.0 ]
+						anchor_angles = [ 0.0, -90.0, -90.0 ]
+						collision_enabled = false
+						friction = 0.5
+						enable_swing_limit = true
+						swing_limit = 30.0
+						swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+						enable_twist_limit = true
+						min_twist_angle = -15.0
+						max_twist_angle = 15.0
+					},
+					{
+						_class = "Folder"
+						name = "legs"
+						children = 
+						[
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "bip01_pelvis"
+								child_body = "bip01_l_thigh"
+								anchor_origin = [ 2.856405, -6.423859, -0.102517 ]
+								anchor_angles = [ 0.0, 0.0, 90.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_swing_limit = true
+								swing_limit = 30.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = true
+								min_twist_angle = 0.0
+								max_twist_angle = 45.0
+							},
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "bip01_l_calf"
+								child_body = "bip01_l_foot"
+								anchor_origin = [ 17.0, -1.0, 0.0 ]
+								anchor_angles = [ 0.0, 90.0, 90.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_swing_limit = true
+								swing_limit = 25.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = true
+								min_twist_angle = -18.0
+								max_twist_angle = 18.0
+							},
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "bip01_pelvis"
+								child_body = "bip01_r_thigh"
+								anchor_origin = [ -2.958926, -6.42387, -0.102513 ]
+								anchor_angles = [ 180.0, 0.0, 90.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_swing_limit = true
+								swing_limit = 30.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = true
+								min_twist_angle = -45.0
+								max_twist_angle = 0.0
+							},
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "bip01_r_calf"
+								child_body = "bip01_r_foot"
+								anchor_origin = [ 17.0, -1.0, 0.0 ]
+								anchor_angles = [ 0.0, 90.0, 90.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_swing_limit = true
+								swing_limit = 25.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = true
+								min_twist_angle = -18.0
+								max_twist_angle = 18.0
+							},
+							{
+								_class = "PhysicsJointRevolute"
+								parent_body = "bip01_l_thigh"
+								child_body = "bip01_l_calf"
+								anchor_origin = [ 14.0, 0.0, 1.0 ]
+								anchor_angles = [ 0.0, 0.0, 0.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_limit = true
+								min_angle = 0.0
+								max_angle = 140.0
+							},
+							{
+								_class = "PhysicsJointRevolute"
+								parent_body = "bip01_r_thigh"
+								child_body = "bip01_r_calf"
+								anchor_origin = [ 14.0, 0.0, -1.0 ]
+								anchor_angles = [ 0.0, 0.0, 0.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_limit = true
+								min_angle = 0.0
+								max_angle = 140.0
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "arms"
+						children = 
+						[
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "bip01_spine4"
+								child_body = "bip01_l_upperarm"
+								anchor_origin = [ 6.189201, -1.887031, 4.288455 ]
+								anchor_angles = [ 40.0, 180.0, 0.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_swing_limit = true
+								swing_limit = 45.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = true
+								min_twist_angle = -30.0
+								max_twist_angle = 30.0
+							},
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "bip01_l_forearm"
+								child_body = "bip01_l_hand"
+								anchor_origin = [ 7.599996, -0.014365, 0.192211 ]
+								anchor_angles = [ 90.0, 0.0, 0.0 ]
+								collision_enabled = true
+								friction = 0.5
+								enable_swing_limit = true
+								swing_limit = 40.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = true
+								min_twist_angle = -10.0
+								max_twist_angle = 10.0
+							},
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "bip01_spine4"
+								child_body = "bip01_r_upperarm"
+								anchor_origin = [ 6.188644, -1.8969, -4.263619 ]
+								anchor_angles = [ -40.0, 180.0, 180.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_swing_limit = true
+								swing_limit = 45.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = true
+								min_twist_angle = -30.0
+								max_twist_angle = 30.0
+							},
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "bip01_r_forearm"
+								child_body = "bip01_r_hand"
+								anchor_origin = [ 7.401232, -0.013468, -0.120129 ]
+								anchor_angles = [ -90.0, 90.0, 90.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_swing_limit = true
+								swing_limit = 40.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = true
+								min_twist_angle = -10.0
+								max_twist_angle = 10.0
+							},
+							{
+								_class = "PhysicsJointRevolute"
+								parent_body = "bip01_l_upperarm"
+								child_body = "bip01_l_forearm"
+								anchor_origin = [ 9.0, 0.0, 0.0 ]
+								anchor_angles = [ 0.0, 0.0, 180.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_limit = true
+								min_angle = 0.0
+								max_angle = 140.0
+							},
+							{
+								_class = "PhysicsJointRevolute"
+								parent_body = "bip01_r_upperarm"
+								child_body = "bip01_r_forearm"
+								anchor_origin = [ 9.0, 0.0, 0.0 ]
+								anchor_angles = [ 0.0, 0.0, 180.0 ]
+								collision_enabled = false
+								friction = 0.5
+								enable_limit = true
+								min_angle = 0.0
+								max_angle = 140.0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_pelvis"
+						surface_prop = "flesh"
+						collision_tags = "solid"
+						radius = 3.0
+						point0 = [ 4.0, -4.0, -1.5 ]
+						point1 = [ -4.0, -4.0, -1.5 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_spine"
+						surface_prop = "flesh"
+						collision_tags = "solid"
+						radius = 3.0
+						point0 = [ 1.0, 0.0, 0.0 ]
+						point1 = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_spine2"
+						surface_prop = "flesh"
+						collision_tags = "solid"
+						radius = 3.0
+						point0 = [ 2.0, 0.0, 0.0 ]
+						point1 = [ 1.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_spine4"
+						surface_prop = "flesh"
+						collision_tags = "solid"
+						radius = 3.0
+						point0 = [ 5.0, -1.0, 0.0 ]
+						point1 = [ 3.0, 1.0, 0.0 ]
+					},
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = "bip01_head1"
+						surface_prop = "flesh"
+						collision_tags = "solid"
+						radius = 4.0
+						point0 = [ 5.0, 0.0, 0.0 ]
+						point1 = [ 3.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "Folder"
+						name = "legs_physics"
+						children = 
+						[
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_l_thigh"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 2.5
+								point0 = [ 14.0, 0.0, 1.0 ]
+								point1 = [ 0.0, 1.0, 1.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_l_calf"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 2.0
+								point0 = [ 18.0, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_l_foot"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 1.5
+								point0 = [ 6.0, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_r_thigh"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 2.5
+								point0 = [ 14.0, 0.0, -1.0 ]
+								point1 = [ 0.0, 1.0, -1.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_r_calf"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 2.0
+								point0 = [ 18.0, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_r_foot"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 1.5
+								point0 = [ 6.0, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+						]
+					},
+					{
+						_class = "Folder"
+						name = "arms_physics"
+						children = 
+						[
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_l_upperarm"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 1.5
+								point0 = [ 8.0, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_l_forearm"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 1.0
+								point0 = [ 5.5, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_l_hand"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 1.0
+								point0 = [ 5.0, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_r_upperarm"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 1.5
+								point0 = [ 8.0, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_r_forearm"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 1.0
+								point0 = [ 7.5, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "bip01_r_hand"
+								surface_prop = "flesh"
+								collision_tags = "solid"
+								radius = 1.0
+								point0 = [ 5.0, 0.0, 0.0 ]
+								point1 = [ 0.0, 0.0, 0.0 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "Ankle_Bands"
+						filename = "models/player/decompiled 0.71/sora_bikini_ankle_bands.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "bracelet_left"
+						filename = "models/player/decompiled 0.71/sora_bikini_bracelet_left.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "bracelet_right"
+						filename = "models/player/decompiled 0.71/sora_bikini_bracelet_right.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Ears"
+						filename = "models/player/decompiled 0.71/sora_bikini_ears.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Hair"
+						filename = "models/player/decompiled 0.71/sora_bikini_hair.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Jacket"
+						filename = "models/player/decompiled 0.71/sora_bikini_jacket.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Ponytail_Acce"
+						filename = "models/player/decompiled 0.71/sora_bikini_ponytail_accessory.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Body"
+						filename = "models/player/decompiled 0.71/sora_bikini_reference.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Sandals"
+						filename = "models/player/decompiled 0.71/sora_bikini_sandals.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Skirt_Belt"
+						filename = "models/player/decompiled 0.71/sora_bikini_skirt_belt_full.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Tail"
+						filename = "models/player/decompiled 0.71/sora_bikini_tail.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Thigh_band_tag"
+						filename = "models/player/decompiled 0.71/sora_bikini_thigh_band_tag.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "Ribbon"
+						filename = "models/player/decompiled 0.71/sora_bikini_waist_ribbon.smd"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		base_model_name = ""
+	}
+}
